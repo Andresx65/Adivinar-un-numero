@@ -17,12 +17,12 @@ public class Main {
             intento = sc.nextInt();
 
             if (intento == numeroOculto) {
-                System.out.println("Adivinaste el numero");
+                System.out.println("Buenisima adivinaste el numero");
                 break;
             }
 
             if (intentos == 3) {
-                System.out.println("El numero era: " + numeroOculto);
+                System.out.println("Muy mal el numero era: " + numeroOculto);
             }
         }
 
